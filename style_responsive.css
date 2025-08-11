@@ -129,6 +129,7 @@ a{
   .btnsci .sci{
     display: flex;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 }
   .btnsci .sci a {
@@ -291,11 +292,13 @@ margin: 30px;
 .pro{
     display: flex;
     justify-content: space-around;
-    height: 230px;
+    text-align: center;
+    height: 1000px;
     width: 100%;
     margin-top: 200px;
     color: white;
 }
+
 .pro h1{
     font-size: 45px;
     color: #21bbf8ab;
@@ -318,9 +321,14 @@ margin: 30px;
     border-radius: 15PX;
     font-size: 20px;
     color:  rgb(255, 255, 255);
-    margin: 0 8px;
+    margin: 20px 8px;
+    margin-left: 10px;
     transition: .5s;
 
+    }
+    .pro .proinfo img{
+        height: 250px;
+        width: 450px;
     }
       
      .pro .proinfo:hover{
@@ -331,7 +339,7 @@ margin: 30px;
         display: flex;
         background-color: rgba(0, 0, 0, 0.212);
         justify-content:start;
-       align-items: center;
+        text-align: center;
         height: 400px;
         width: 100%;
         padding: 120px;
