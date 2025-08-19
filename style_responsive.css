@@ -271,29 +271,72 @@ a{
 }
 .skills{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.skills h1{
+    color: #21bbf8ab;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.skills .skillsinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    height: 350px;
+    text-align: center;
+   height: 600px;
     width: 100%;
 }
 .skills .skillsinfo img{
-    height: 100px;
-    width: 100px;
-margin: 30px;
-    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 30px;  
+    margin-left: 45 px;
 }
-.skills .skillsinfo h1{
-    font-size: 45px;
+.skills .skillsinfo h3{
+    font-size: 16px;
     color: #21bbf8ab;
     text-align: center;
-    margin-top: 200px;
     
+}
+.skills .skillsinfo div{
+    border: 1px solid #6fd5fdab;
+    border-radius: 10px;
+    width: 130px;
+    height: 140px;
+    
+}
+.skills .skillsinfo :hover{
+    box-shadow: 0 0 25px #21bbf8ab;
+    
+}
+.achi{
+    height: 200px;
+    width: 100%;
+    margin-top: 300px;
+}
+ .achi h1{
+ color: #21bbf8ab;
+ text-align: center;
+ font-size: 45px;
+}
+.achi li ul {
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 .pro{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    height: 1000px;
+    height: 800px;
     width: 100%;
     margin-top: 200px;
     color: white;
@@ -313,7 +356,6 @@ margin: 30px;
         flex-direction: column;
         gap: 20px;
         margin: 70px;
-        
         margin-left: 10px;
      display: inline-flex;
     padding: 8px;
@@ -327,14 +369,15 @@ margin: 30px;
 
     }
     .pro .proinfo img{
-        height: 250px;
-        width: 450px;
+        height: 100px;
+        width: 200px;
     }
       
      .pro .proinfo:hover{
     color: rgb(255, 255, 255);
     box-shadow: 0 0 25px #21bbf8ab;
     } 
+
     .con{
         display: flex;
         background-color: rgba(0, 0, 0, 0.212);
@@ -405,10 +448,70 @@ margin: 30px;
         width: 100%;
         margin: 10px 0;
     }
-    .skills .skillsinfo img {
-        height: 70px;
-        width: 70px;
-    }
+    .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+.skills h1{
+    color: #21bbf8ab;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.skills .skillsinfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   height: 600px;
+    width: 100%;
+}
+.skills .skillsinfo img{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin: 30px;  
+    margin-left: 45 px;
+}
+.skills .skillsinfo h3{
+    font-size: 16px;
+    color: #21bbf8ab;
+    text-align: center;
+    
+}
+.skills .skillsinfo div{
+    border: 1px solid #6fd5fdab;
+    border-radius: 10px;
+    width: 130px;
+    height: 140px;
+    
+}
+.skills .skillsinfo :hover{
+    box-shadow: 0 0 25px #21bbf8ab;
+    
+}
+.achi{
+    height: 200px;
+    width: 100%;
+    margin-top: 300px;
+}
+ .achi h1{
+ color: #21bbf8ab;
+ text-align: center;
+ font-size: 45px;
+}
+.achi li ul {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    
     .pro {
         margin-top: 50px;
     }
